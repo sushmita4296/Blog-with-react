@@ -2,7 +2,10 @@ import "./header.css"
 function Header(){
   return(
     <div className="header">
-      <h1>Header</h1>
+      <div className="headerTitles">
+        <span className="headerTitleSm">React</span>
+        <span className="headerTitleLg">Blog</span>
+      </div>
     </div>
   )
 }
