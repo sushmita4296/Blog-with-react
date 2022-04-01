@@ -11,12 +11,12 @@ function TopBar() {
       </div>
 
       <div className="topCenter">
-        <ul className="topList">
-          <li className="topListItem">Home</li>
-          <li className="topListItem">About</li>
-          <li className="topListItem">Contact</li>
-          <li className="topListItem">Write</li>
-          <li className="topListItem">Logout</li>
+        <ul className="topList ">
+          <li className="topListItem link link-effect">Home</li>
+          <li className="topListItem link link-effect">About</li>
+          <li className="topListItem link link-effect">Contact</li>
+          <li className="topListItem link link-effect">Write</li>
+          <li className="topListItem link link-effect">Logout</li>
         </ul>
       </div>
       <div className="topRight">
