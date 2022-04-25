@@ -1,5 +1,7 @@
 import "./sidebar.css"
+
 import sidebarImg from "../../images/sidebarImg.jpg"
+
 function SideBar() {
     return (
         <div className="sidebar">
