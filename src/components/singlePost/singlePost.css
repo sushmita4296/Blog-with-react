@@ -19,9 +19,24 @@
 }
 .singlePostEdit{
     float: right;
-    font-size: 18px;
+    font-size: 22px;
 }
 .singlePostIcon{
     margin-left: 10px;
     cursor: pointer;
+}
+.singlePostIcon:first-child{
+    color: teal;
+    margin-right: 10px;
+}
+.singlePostIcon:last-child{
+    color: tomato;
+}
+.singlePostInfo{
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #b39656;
 }
