@@ -7,11 +7,12 @@
 .writeImg{
   width: 90%;
   height: 70vh;
-  padding: 0 90px;
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 10px;
+  border: none;
+  padding: 0 90px;
 }
 .writeForm{
   position: relative;
