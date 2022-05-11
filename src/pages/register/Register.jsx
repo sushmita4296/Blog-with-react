@@ -3,15 +3,15 @@ import "./register.css";
 function Register() {
   return (
     <div className="register">
-      <span className="registerTitle">Login</span>
+      <span className="registerTitle">Register </span>
       <form className="registerForm">
         <label>Email</label>
-        <input type="email" className="registerInput" placeholder="Enter you Email address..." />
+        <input type="email" className="registerInput" placeholder="Enter you Email..." />
         <label>Password</label>
         <input type="password" className="registerInput" placeholder="Enter you password..." />
         <button className="registerButton">Register</button>
       </form>
-      <button className="loginLoginButton">Login</button>
+      <button className="registerLoginButton">Login</button>
     </div>
   );
 }
