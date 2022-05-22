@@ -6,7 +6,7 @@ function Register() {
       <span className="registerTitle">Register </span>
       <form className="registerForm">
         <label>Email</label>
-        <input type="email" className="registerInput" placeholder="Enter you Email..." />
+        <input type="email" className="registerInput" placeholder="Enter you Email ..." />
         <label>Password</label>
         <input type="password" className="registerInput" placeholder="Enter you password..." />
         <button className="registerButton">Register</button>
