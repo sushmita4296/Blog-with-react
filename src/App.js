@@ -1,7 +1,15 @@
 import React from "react";
+// importing browser for routing6//
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// importing Bulma CSS//
+import 'bulma/css/bulma.min.css';
+
+// importing components //
 import TopBar from "./components/topbar/TopBar";
+// import TopMenu from "./components/TopMenu";
 import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/Contact";
 import Single from "./pages/single/Single"
 import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
@@ -24,8 +32,12 @@ const App = () => {
             <Routes>
               
               <Route path="/" element={<TopBar/>}>
-              <Route index element={<Home />} />
-              
+                {/* <Route path="/top" index element ={ <TopMenu />} /> */}
+                <Route path="/" index element={<Home />} />
+                <Route path="about" index element={<About />} />
+                <Route path="contact" index element={<Contact />} />
+                <Route path="write" index element={<Write />} />
+                
               </Route>
             </Routes>
           </Router>
